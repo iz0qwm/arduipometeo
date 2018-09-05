@@ -9,11 +9,11 @@ Un mio amico, Casadei Federico grande appassionato di speleogia, nonchè membro 
 Così è iniziata l'avventura con Arduino per risparmiare il più possibile visto che la stazione sarebbe rimasta abbandonata per un tempo imprecisato, nel sottosuolo.
 
 # Sensori e PCB
-Ecco i componenti utilizzati:
-*Arduino UNO
-*DHT22 - sensore di temperatura e umidità 
-*BMP280 - sensore di pressione (temperatura come parametro secondario)
-*Anemometro Inspeed Vortex
-*RTC DS3231 - Real Time Clock
-*Micro SD Card module - Modulo per scheda SD
+Ecco i componenti utilizzati: 
+- Arduino UNO
+- DHT22 - sensore di temperatura e umidità 
+- BMP280 - sensore di pressione (temperatura come parametro secondario)
+- Anemometro Inspeed Vortex
+- RTC DS3231 - Real Time Clock
+- Micro SD Card module - Modulo per scheda SD
  
