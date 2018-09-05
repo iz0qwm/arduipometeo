@@ -14,6 +14,6 @@ Ecco i componenti utilizzati:
 - DHT22 - sensore di temperatura e umidità 
 - BMP280 - sensore di pressione (temperatura come parametro secondario)
 - Anemometro Inspeed Vortex
-- RTC DS3231 - Real Time Clock
+- RTC DS3231 - Real Time Clock (temperatura come parametro secondario)
 - Micro SD Card module - Modulo per scheda SD
  
