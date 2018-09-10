@@ -90,7 +90,7 @@ void loop()
       logfile = SD.open(filename, FILE_WRITE);
       delay(1000); 
       //Serial.println(logfile.size());
-      if (logfile.size() < 2000) {
+      if (logfile.size() < 200000) {
         break;  // leave the loop!
       }
     } 
