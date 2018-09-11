@@ -88,13 +88,16 @@ void loop()
         delay(1000);
       }
       logfile = SD.open(filename, FILE_WRITE);
-      delay(1000); 
+      delay(500); 
       //Serial.println(logfile.size());
-      if (logfile.size() < 200000) {
-        break;  // leave the loop!
+      if (logfile.size() < 200000) {  // dimensione massima del file di log in bytes
+        logfile.close();        
+        break;  // esco dal loop!   
       }
+      logfile.close();  // Chiudo sempre. ARDUINO non gestisce più di un file aperto
     } 
-    //delay(1000);
+    logfile = SD.open(filename, FILE_WRITE);
+    delay(500);
     String TempHum = calcTempHumidity();
     //Prendo la stringa dalla funzione WindSpeed
     String Wind = calcWindSpeed();
@@ -115,7 +118,7 @@ void loop()
     logfile.println();
     logfile.close();
 
-    /*Serial.print(rtca.getDateStr());
+    Serial.print(rtca.getDateStr());
     Serial.print(",");
     Serial.print(rtca.getTimeStr());
     Serial.print(",");
@@ -126,7 +129,7 @@ void loop()
     Serial.print(Pressure);
     Serial.print(" -> ");
     Serial.print(filename);
-    Serial.println();*/
+    Serial.println();
     
     digitalWrite(PIN_LED, LOW);
     
