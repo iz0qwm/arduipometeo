@@ -17,3 +17,8 @@ Ecco i componenti utilizzati:
 - RTC DS3231 - Real Time Clock (temperatura come parametro secondario)
 - Micro SD Card module - Modulo per scheda SD
  
+## PCB assembled
+![ARDUIPO_01](http://www.kwos.it/joomla/images/ARDUIPO_01.JPG)
+![ARDUIPO_02](http://www.kwos.it/joomla/images/ARDUIPO_02.JPG)
+![ARDUIPO_03](http://www.kwos.it/joomla/images/ARDUIPO_03.JPG)
+![ARDUIPO_04](http://www.kwos.it/joomla/images/ARDUIPO_04.JPG)
