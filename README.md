@@ -19,7 +19,7 @@ Ecco i componenti utilizzati:
  
 ## PCB assembled
 Purtroppo, essendo il primo lavoro effettuato con [Fritzing](http://fritzing.org/home/) e la prima volta che usavo [AISLER](https://github.com/iz0qwm/arduipometeo-8c5c2d39-25d2-4da6-ba8e-bfbf6c96123a) per farmi stampare il PCB, ho fatto un errore:
-fori di Arduino UNO, fatti al contrario :(
+fori di Arduino UNO, fatti al contrario :(  
 **N.B.: La versione 1.5 ha questo problema risolto**
 
 ![ARDUIPO_01](http://www.kwos.it/joomla/images/ARDUIPO_01.JPG)
