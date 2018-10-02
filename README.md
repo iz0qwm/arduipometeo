@@ -27,3 +27,4 @@ Inoltre, per un problema del disegno del DS3231, i fori di quest'ultimo sul PCB 
 ![ARDUIPO_02](http://www.kwos.it/joomla/images/ARDUIPO_02.JPG)
 ![ARDUIPO_03](http://www.kwos.it/joomla/images/ARDUIPO_03.JPG)
 ![ARDUIPO_04](http://www.kwos.it/joomla/images/ARDUIPO_04.JPG)
+![ARDUIPO_05](http://www.kwos.it/joomla/images/ARDUIPO_05.png)
